@@ -9,6 +9,13 @@ export default function EditScreenInfo({ path }: { path: string }) {
   return (
     <View>
       <View style={styles.getStartedContainer}>
+      <Text
+          style={styles.getStartedText}
+          lightColor="rgba(217, 50, 50, 0.8)"
+          darkColor="rgba(255,255,255,0.8)">
+          This is code that has been added via VS Code...
+        </Text>
+
         <Text
           style={styles.getStartedText}
           lightColor="rgba(0,0,0,0.8)"
